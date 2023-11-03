@@ -1,4 +1,4 @@
 # eks-drdemo-apps
 Sample Apps to showcase how EKS DR solution works. 
 
-test EKS - 3
+test EKS - 4
