@@ -9,6 +9,9 @@ spec:
     repoURL: https://github.com/mahasiva-amazon/eks-drdemo-apps.git
     targetRevision: HEAD
     path: app_2
+    helm:
+      valueFiles:
+      - apps/helm_values/app_2_values.yaml
   destination:
     server: https://kubernetes.default.svc
     namespace: drapps
