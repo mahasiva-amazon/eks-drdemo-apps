@@ -11,7 +11,7 @@ spec:
     path: app_1
     helm:
       valueFiles:
-      - helm_values/app_1_values.yaml
+      - helm_values/___HELM_VALUE_FILE___
   destination:
     server: https://kubernetes.default.svc
     namespace: drapps
